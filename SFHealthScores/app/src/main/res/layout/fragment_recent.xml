@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_recent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.sjsu.cs175.sfhealthscores.fragments.RecentFragment">
+
+    <!-- Loading Spinner -->
+    <ProgressBar
+        android:id="@+id/recent_loading_spinner"
+        style="@style/LoadingSpinner"
+        android:visibility="gone" />
+    <!-- No Internet Layout -->
+    <include
+        android:id="@+id/recent_internet_layout"
+        layout="@layout/status_no_internet"
+        android:visibility="gone" />
+
+    <!-- RecyclerView -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recent_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+</FrameLayout>

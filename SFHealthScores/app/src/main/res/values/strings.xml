@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SFHealthScores</string>
+
+    <string name="menu_nearby">Nearby</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_recent">Recent</string>
+
+    <string name="retry_button_text">Retry</string>
+
+    <string name="status_no_location_title">Location Services Disabled</string>
+    <string name="status_no_location_desc">Turn on Location Services to see nearby businesses.</string>
+    <string name="status_no_internet_title">No Internet Connection</string>
+    <string name="status_no_internet_desc">Please connect and try again.</string>
+    <string name="status_no_search_results">No Results Found</string>
+    <string name="status_no_search_desc">You imagination is too powerful.</string>
+    <string name="status_empty_search_title">Looking For Something?</string>
+    <string name="status_empty_search_desc">Find food facilities by name or address.</string>
+    <string name="status_data_error_title">Error Fetching Data</string>
+    <string name="status_data_error_desc">An error has occured while fetching data.</string>
+    <string name="status_permission_denied_title">Location Permission Denied</string>
+    <string name="status_permission_denied_desc">Please turn on Location app permissions.</string>
+
+    <string name="search_hint">Search name or address</string>
+
+    <string name="inspection_high">High</string>
+    <string name="inspection_moderate">Moderate</string>
+    <string name="inspection_low">Low</string>
+
+
+</resources>
