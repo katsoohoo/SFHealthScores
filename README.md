@@ -1,6 +1,6 @@
 
 # SFHealthScores
-SFHealthScores is an Android application that informs customers about restaurant inspection scores and violations in San Francisco. Users can find facilities by proximity, search, or recent inspections.
+SFHealthScores is an Android application that informs customers about restaurant inspection scores and violations in San Francisco. Users can find facilities by proximity, search, or recent inspections. Data is collected by the San Francisco Department of Public Health.
 
 ## Requirements
 * Android device (Jelly Bean 4.1 and up)
